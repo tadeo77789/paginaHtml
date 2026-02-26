@@ -3,106 +3,106 @@
 <head>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="categorias/estructurales.html">
+    <link rel="stylesheet" href="categorias/formularios.html">
+    <link rel="stylesheet" href="categorias/listas.html">
+    <link rel="stylesheet" href="categorias/multimedia.html">
+    <link rel="stylesheet" href="categorias/tablas.html">
+    <link rel="stylesheet" href="categorias/texto.html">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>explicacion estructurales</title>
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
 </head>
 <body>
 
-    <!-- Navbar -->
+<!-- Navbar -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar w/ text</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="index.html">Explicacion HTML</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
+        <li class="nav-item"><a class="nav-link active" href="categorias/estructurales.html">Estructura</a></li>
+        <li class="nav-item"><a class="nav-link" href="categorias/formularios.html">Formulario</a></li>
+        <li class="nav-item"><a class="nav-link" href="categorias/listas.html">Listas</a></li>
+        <li class="nav-item"><a class="nav-link" href="categorias/multimedia.html">Multimedia</a></li>
+        <li class="nav-item"><a class="nav-link" href="categorias/tablas.html">Tablas</a></li>
+        <li class="nav-item"><a class="nav-link" href="categorias/texto.html">Texto</a></li>
       </ul>
-      <span class="navbar-text">
-        Navbar text with an inline element
-      </span>
+      <span class="navbar-text">Navbar text</span>
     </div>
   </div>
 </nav>
-    <!-- FIN Navbar -->
+<!-- FIN Navbar -->
+<div class="container mt-4"></div>
+<!-- CARRUSEL -->
+<div id="carouselExampleFade"
+     class="carousel slide carousel-fade"
+     data-bs-ride="carousel"
+     data-bs-interval="3000"
+     data-bs-pause="false">
 
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <!-- PUNTICOS -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="4"></button>
+    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="5"></button>
+  </div>
+
   <div class="carousel-inner">
+
     <div class="carousel-item active">
-      <img src="img/estructuralesCarrusel.png" class="d-block w-100" alt="...">
+      <img src="img/estructuralesCarrusel.png" class="d-block w-100" alt="">
     </div>
+
     <div class="carousel-item">
-      <img src="img/formularioCarrusel.png" class="d-block w-100" alt="...">
+      <img src="img/formularioCarrusel.png" class="d-block w-100" alt="">
     </div>
+
     <div class="carousel-item">
-      <img src="img/listaCarrusel.png" class="d-block w-100" alt="...">
+      <img src="img/listaCarrusel.png" class="d-block w-100" alt="">
     </div>
-        <div class="carousel-item">
-      <img src="img/multimediaCarrusel.png" class="d-block w-100" alt="...">
+
+    <div class="carousel-item">
+      <img src="img/multimediaCarrusel.png" class="d-block w-100" alt="">
     </div>
-        <div class="carousel-item">
-      <img src="img/listaCarrusel.png" class="d-block w-100" alt="...">
+
+    <div class="carousel-item">
+      <img src="img/tablaCarrusel.png" class="d-block w-100" alt="">
     </div>
-        <div class="carousel-item">
-      <img src="img/listaCarrusel.png" class="d-block w-100" alt="...">
+
+    <div class="carousel-item">
+      <img src="img/listaCarrusel.png" class="d-block w-100" alt="">
     </div>
-            </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-            </div>  
-            <div></div>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <footer>
-        
-    </footer>
+
+  </div>
+
+  <!-- FLECHA IZQUIERDA -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <!-- FLECHA DERECHA -->
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
+<!-- FIN CARRUSEL -->
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

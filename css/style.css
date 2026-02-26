@@ -10,3 +10,12 @@ body{
     height: 350px;      
     object-fit: cover;  
 }
+
+#carouselExampleFade img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: black;
+}
