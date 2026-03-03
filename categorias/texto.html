@@ -2,70 +2,153 @@
 <html lang="es">
 <head>
 
-    <!-- 🔹 Archivo CSS propio -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
-    <!-- 🔹 Codificación de caracteres -->
     <meta charset="UTF-8">
 
-    <!-- ✅ META VIEWPORT (ESTO HACE QUE SEA RESPONSIVE EN CELULAR) -->
-    <!-- Sin esta línea, la página no se adapta correctamente a móviles -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>textos</title>
+    <title>Explicacion HTML</title>
 
-    <!-- ✅ Bootstrap CSS (esto permite usar el sistema responsive de Bootstrap) -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
 <body>
-<!-- ✅ Navbar responsive -->
 
-
-  <!-- ⚠ container-fluid ocupa todo el ancho -->
-  <!-- Si quieres márgenes laterales usa "container" -->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg border-bottom bg-body-tertiary" data-bs-theme="dark">
   <div class="container-fluid">
-
-    <a class="navbar-brand" href="../index.html">Explicacion HTML</a>
-
-    <!-- Botón hamburguesa  -->
-    <button class="navbar-toggler" 
-            type="button" 
-            data-bs-toggle="collapse" 
-            data-bs-target="#navbarText">
+    <a class="navbar-brand" href="index.html">Explicacion HTML</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <!-- para cuando es celular -->
     <div class="collapse navbar-collapse" id="navbarText">
-
-      <!-- me-auto empuja el texto final hacia la derecha -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-        <!-- Enlaces normales -->
         <li class="nav-item"><a class="nav-link" href="estructurales.html">Estructura</a></li>
         <li class="nav-item"><a class="nav-link" href="formularios.html">Formulario</a></li>
         <li class="nav-item"><a class="nav-link" href="listas.html">Listas</a></li>
         <li class="nav-item"><a class="nav-link" href="multimedia.html">Multimedia</a></li>
         <li class="nav-item"><a class="nav-link" href="tablas.html">Tablas</a></li>
-
-        <!-- active marca la página actual -->
         <li class="nav-item"><a class="nav-link active" href="texto.html">Texto</a></li>
-
       </ul>
-
-      <!-- Texto alineado a la derecha -->
-      <span class="navbar-text">
-        Navbar text
-      </span>
-
+      <span class="navbar-text">Sección Texto</span>
     </div>
   </div>
 </nav>
 <!-- FIN Navbar -->
 
+<!-- INICIO DE TEXTO INFO -->
+<div class="container mt-5">
 
-<!-- Sin este script, el menú hamburguesa NO funciona -->
+  <div class="card text-bg-dark mb-3 shadow p-4">
+    
+    <h1 class="text-center mb-4">¿Qué es el texto en HTML?</h1>
+
+    <p>
+      En HTML, el <strong>texto</strong> se utiliza para mostrar contenido escrito dentro de una página web.
+      Existen diferentes etiquetas que permiten organizar y dar estructura al texto.
+    </p>
+
+    <h3>¿Cómo funciona el texto en HTML?</h3>
+
+    <p>
+      HTML organiza el contenido mediante etiquetas como encabezados, párrafos,
+      texto en negrita o cursiva. La apariencia visual se puede mejorar usando CSS.
+    </p>
+
+    <div class="mt-4">
+      <h4>Comando HTML</h4>
+
+      <div class="codigo-terminal shadow">
+<pre><code>
+&lt;h1&gt;Titulo Principal&lt;/h1&gt;
+
+&lt;p&gt;Este es un parrafo en HTML.&lt;/p&gt;
+
+&lt;strong&gt;Texto en negrita&lt;/strong&gt;
+
+&lt;em&gt;Texto en cursiva&lt;/em&gt;
+</code></pre>
+      </div>
+    </div>
+
+    <div class="mt-4">
+      <h4>Resultado</h4>
+
+      <h1>Titulo Principal</h1>
+      <p>Este es un parrafo en HTML.</p>
+      <strong>Texto en negrita</strong><br>
+      <em>Texto en cursiva</em>
+    </div>
+
+    <hr>
+
+    <h3>Se usa para:</h3>
+
+    <ul>
+      <li>Mostrar información</li>
+      <li>Crear títulos y subtítulos</li>
+      <li>Organizar contenido</li>
+      <li>Resaltar información importante</li>
+    </ul>
+
+  </div>
+
+</div>
+<!-- FIN DE TEXTO INFO -->
+ <!-- FOOTER GENERAL COMPLETO -->
+<footer class="bg-dark text-light mt-5 border-top">
+  <div class="container py-4">
+    
+    <div class="row">
+
+      <!-- Información del sitio -->
+      <div class="col-md-4 mb-3">
+        <h5>Explicación HTML</h5>
+        <p class="small">
+          Sitio educativo donde se explican los conceptos fundamentales de HTML
+          con ejemplos prácticos y visuales usando Bootstrap.
+        </p>
+      </div>
+
+      <!-- Secciones principales -->
+      <div class="col-md-4 mb-3">
+        <h6>Secciones</h6>
+        <ul class="list-unstyled small">
+          <li><a href="estructurales.html" class="text-decoration-none text-light">Estructura</a></li>
+          <li><a href="formularios.html" class="text-decoration-none text-light">Formulario</a></li>
+          <li><a href="listas.html" class="text-decoration-none text-light">Listas</a></li>
+          <li><a href="multimedia.html" class="text-decoration-none text-light">Multimedia</a></li>
+          <li><a href="tablas.html" class="text-decoration-none text-light">Tablas</a></li>
+          <li><a href="texto.html" class="text-decoration-none text-light">Texto</a></li>
+        </ul>
+      </div>
+
+      <!-- Información adicional -->
+      <div class="col-md-4 mb-3">
+        <h6>Información</h6>
+        <ul class="list-unstyled small">
+          <li>Proyecto académico</li>
+          <li>Desarrollado con HTML5 y Bootstrap 5</li>
+          <li>Año 2026</li>
+          <li>Autor: Luis Alejandro Duarte</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <hr class="border-light">
+
+    <!-- Derechos -->
+    <div class="text-center small">
+      © 2026 Explicación HTML | Todos los derechos reservados
+    </div>
+
+  </div>
+</footer>
+<!-- FIN FOOTER -->
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
-</html>

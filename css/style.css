@@ -28,12 +28,15 @@
     margin-left: 20%;
     margin-right: 20%;
 }
+<<<<<<< HEAD
 
 
 .card:hover {
     transform: translateY(-10px); /*sirve para el movimiento de los mini contenedores*/
 }
 
+=======
+>>>>>>> 2b88e6931f36579969bb1d7398f4eeaefd0fbb6a
 .codigo-terminal {
   background-color: #0d1117;
   color: #00ff88;
@@ -41,11 +44,19 @@
   border-radius: 10px;
   font-family: monospace;
   position: relative;
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 2b88e6931f36579969bb1d7398f4eeaefd0fbb6a
 
   background-image: 
     linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
   background-size: 20px 20px;
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> 2b88e6931f36579969bb1d7398f4eeaefd0fbb6a
