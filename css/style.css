@@ -1,16 +1,10 @@
-body{
-    background-color: hsl(60, 5%, 26%);
+ body {
+    margin: 0;
 }
 #carouselExampleFade {
     max-width: 1500px; 
     margin-block-start: auto;
 }
-
-#carouselExampleFade img {
-    height: 350px;
-    object-fit: cover;
-}
-
 #carouselExampleFade img {
     height: 400px;
     object-fit: cover;
