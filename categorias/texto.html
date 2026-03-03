@@ -2,45 +2,73 @@
 <html lang="es">
 <head>
 
+    <!-- 🔹 Archivo CSS propio -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="categorias/estructurales.html">
-    <link rel="stylesheet" href="categorias/formularios.html">
-    <link rel="stylesheet" href="categorias/listas.html">
-    <link rel="stylesheet" href="categorias/multimedia.html">
-    <link rel="stylesheet" href="categorias/tablas.html">
-    <link rel="stylesheet" href="categorias/texto.html">
-    <link rel="stylesheet" href="../index.html">
+
+    <!-- 🔹 Codificación de caracteres -->
     <meta charset="UTF-8">
+
+    <!-- ✅ META VIEWPORT (ESTO HACE QUE SEA RESPONSIVE EN CELULAR) -->
+    <!-- Sin esta línea, la página no se adapta correctamente a móviles -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>explicacion estructurales</title>
-    <!-- Bootstrap CSS -->
+
+    <!-- ✅ Bootstrap CSS (esto permite usar el sistema responsive de Bootstrap) -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-
-
 </head>
+
 <body>
-    <!-- Navbar -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+<!-- ✅ Navbar responsive -->
+
+
+  <!-- ⚠ container-fluid ocupa todo el ancho -->
+  <!-- Si quieres márgenes laterales usa "container" -->
   <div class="container-fluid">
+
     <a class="navbar-brand" href="../index.html">Explicacion HTML</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+
+    <!-- Botón hamburguesa  -->
+    <button class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarText">
       <span class="navbar-toggler-icon"></span>
     </button>
 
+    <!-- para cuando es celular -->
     <div class="collapse navbar-collapse" id="navbarText">
+
+      <!-- me-auto empuja el texto final hacia la derecha -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item"><a class="nav-link active" href="categorias/estructurales.html">Estructura</a></li>
-        <li class="nav-item"><a class="nav-link" href="categorias/formularios.html">Formulario</a></li>
-        <li class="nav-item"><a class="nav-link" href="categorias/listas.html">Listas</a></li>
-        <li class="nav-item"><a class="nav-link" href="categorias/multimedia.html">Multimedia</a></li>
-        <li class="nav-item"><a class="nav-link" href="categorias/tablas.html">Tablas</a></li>
-        <li class="nav-item"><a class="nav-link" href="categorias/texto.html">Texto</a></li>
+
+        <!-- Enlaces normales -->
+        <li class="nav-item"><a class="nav-link" href="estructurales.html">Estructura</a></li>
+        <li class="nav-item"><a class="nav-link" href="formularios.html">Formulario</a></li>
+        <li class="nav-item"><a class="nav-link" href="listas.html">Listas</a></li>
+        <li class="nav-item"><a class="nav-link" href="multimedia.html">Multimedia</a></li>
+        <li class="nav-item"><a class="nav-link" href="tablas.html">Tablas</a></li>
+
+        <!-- active marca la página actual -->
+        <li class="nav-item"><a class="nav-link active" href="texto.html">Texto</a></li>
+
       </ul>
-      <span class="navbar-text">Navbar text</span>
+
+      <!-- Texto alineado a la derecha -->
+      <span class="navbar-text">
+        Navbar text
+      </span>
+
     </div>
   </div>
 </nav>
 <!-- FIN Navbar -->
+
+
+<!-- Sin este script, el menú hamburguesa NO funciona -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

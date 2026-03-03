@@ -3,13 +3,6 @@
 <head>
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="categorias/estructurales.html">
-    <link rel="stylesheet" href="categorias/formularios.html">
-    <link rel="stylesheet" href="categorias/listas.html">
-    <link rel="stylesheet" href="categorias/multimedia.html">
-    <link rel="stylesheet" href="categorias/tablas.html">
-    <link rel="stylesheet" href="categorias/texto.html">
-    <link rel="stylesheet" href="../index.html">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>explicacion estructurales</title>
@@ -20,27 +13,127 @@
 
 </head>
 <body>
-    <!-- Navbar -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg border-bottom bg-body-tertiary" data-bs-theme="dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="../index.html">Explicacion HTML</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item"><a class="nav-link active" href="categorias/estructurales.html">Estructura</a></li>
-        <li class="nav-item"><a class="nav-link" href="categorias/formularios.html">Formulario</a></li>
-        <li class="nav-item"><a class="nav-link" href="categorias/listas.html">Listas</a></li>
-        <li class="nav-item"><a class="nav-link" href="categorias/multimedia.html">Multimedia</a></li>
-        <li class="nav-item"><a class="nav-link" href="categorias/tablas.html">Tablas</a></li>
-        <li class="nav-item"><a class="nav-link" href="categorias/texto.html">Texto</a></li>
+        <li class="nav-item"><a class="nav-link" href="estructurales.html">Estructura</a></li>
+        <li class="nav-item"><a class="nav-link" href="formularios.html">Formulario</a></li>
+        <li class="nav-item"><a class="nav-link" href="listas.html">Listas</a></li>
+        <li class="nav-item"><a class="nav-link" href="multimedia.html">Multimedia</a></li>
+        <li class="nav-item"><a class="nav-link" href="tablas.html">Tablas</a></li>
+        <li class="nav-item"><a class="nav-link" href="texto.html">Texto</a></li>
       </ul>
       <span class="navbar-text">Navbar text</span>
     </div>
   </div>
 </nav>
 <!-- FIN Navbar -->
+ <!--INICIO DE TEXTO INFO-->
+  <div class="container mt-5">
+
+    <div class="card text-bg-dark mb-3 shadow p-4 ">
+        <h1 class="text-center mb-4">¿Qué es una tabla en HTML?</h1>
+
+        <p>
+            Una <strong>tabla en HTML</strong> es una estructura que permite organizar 
+            información en <strong>filas y columnas</strong>.
+        </p>
+
+        <p>
+            Se utiliza cuando necesitamos mostrar datos de manera ordenada y relacionada,
+            como por ejemplo listas de estudiantes, productos, horarios o reportes.
+        </p>
+        <img src="https://francescricart.com/wp-content/uploads/2018/02/thead-tbody-tfoot-caption.jpg" alt="HTML5">
+
+        <hr> 
+
+        <h3>¿Para qué se usa?</h3>
+
+        <ul>
+          <li>Mostrar datos organizados</li>
+            <li>Presentar información comparativa</li>
+            <li>Visualizar registros estructurados</li>
+            <li>Exponer resultados o estadísticas</li>
+        </ul>
+
+        <div class="alert alert-warning mt-4">
+            Usar tablas en <strong>HTML</strong> es emplearlas únicamente para datos estructurados, utilizar etiquetas semánticas como 
+            thead y tbody, y asegurar que sean <strong>responsivas</strong> para dispositivos móviles.
+        </div>
+        <!--INICIO TABLA-->
+<div class="container mt-5">
+
+    <h2 class="mb-4 text-center">Etiquetas para crear una tabla en HTML</h2>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped table-hover table-sm align-middle text-center">
+                    
+                    <thead class="table-dark">
+                        <tr>
+                            <th style="width: 30%;"> <strong>Etiqueta</strong></th>
+                            <th style="width: 70%;"> <strong>Descripción</strong></th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>&lt;table&gt;</td>
+                            <td>Contenedor principal de la tabla</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;thead&gt;</td>
+                            <td>Agrupa el encabezado</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;tbody&gt;</td>
+                            <td>Agrupa los datos principales</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;tfoot&gt;</td>
+                            <td>Agrupa el pie o resumen</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;tr&gt;</td>
+                            <td>Define una fila</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;th&gt;</td>
+                            <td>Celda de encabezado</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;td&gt;</td>
+                            <td>Celda de datos</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;caption&gt;</td>
+                            <td>Título descriptivo</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<!--FIN TABLA-->
+    </div>
+
+</div>
+
+<!--FIN DE TEXTO INFO-->
+
+         <!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
