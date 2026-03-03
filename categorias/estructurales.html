@@ -23,8 +23,7 @@
 </head>
 <body>
     <!-- Navbar -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+<nav class="navbar navbar-expand-lg border-bottom bg-body-tertiary" data-bs-theme="dark">
 
     <a class="navbar-brand" href="../index.html">Explicacion HTML</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
@@ -33,12 +32,12 @@
 
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item"><a class="nav-link active" href="categorias/estructurales.html">Estructura</a></li>
-        <li class="nav-item"><a class="nav-link" href="categorias/formulario.html">Formulario</a></li>
-        <li class="nav-item"><a class="nav-link" href="categorias/listas.html">Listas</a></li>
-        <li class="nav-item"><a class="nav-link" href="categorias/multimedia.html">Multimedia</a></li>
-        <li class="nav-item"><a class="nav-link" href="categorias/tablas.html">Tablas</a></li>
-        <li class="nav-item"><a class="nav-link" href="categorias/texto.html">Texto</a></li>
+        <li class="nav-item"><a class="nav-link active" href="estructurales.html">Estructura</a></li>
+        <li class="nav-item"><a class="nav-link" href="formularios.html">Formulario</a></li>
+        <li class="nav-item"><a class="nav-link" href="listas.html">Listas</a></li>
+        <li class="nav-item"><a class="nav-link" href="multimedia.html">Multimedia</a></li>
+        <li class="nav-item"><a class="nav-link" href="tablas.html">Tablas</a></li>
+        <li class="nav-item"><a class="nav-link" href="texto.html">Texto</a></li>
       </ul>
       <span class="navbar-text">Navbar text</span>
     </div>
@@ -48,7 +47,7 @@
 <!-- FIN Navbar -->
  <h1 class="titulo1">¿Qué son las etiquetas estructurales?</h1>
     <p id="text">Las etiquetas estructurales en HTML se utilizan para organizar y definir el contenido de una página web. Estas etiquetas no afectan directamente la apariencia de la página, pero proporcionan una estructura lógica y jerárquica, tanto para los desarrolladores como para los motores de búsqueda y tecnologías de asistencia (como lectores de pantalla).</p>
-    <h3>Algunas de las etiquetas estructurales más comunes son:</h3>
+    <h3 class="text-center">Algunas de las etiquetas estructurales más comunes son:</h3>
     <div class="container">
   <div class="row align-items-start">
     <div class="col">
@@ -125,7 +124,60 @@
     </div>
 
 </nav>
+
+<!-- FOOTER GENERAL COMPLETO -->
+<footer class="bg-dark text-light mt-5 border-top">
+  <div class="container py-4">
+
+    <div class="row">
+
+      <!-- Información del sitio -->
+      <div class="col-md-4 mb-3">
+        <h5>Explicación HTML</h5>
+        <p class="small">
+          Sitio educativo donde se explican los conceptos fundamentales de HTML
+          con ejemplos prácticos y visuales usando Bootstrap.
+        </p>
+      </div>
+
+      <!-- Secciones principales -->
+      <div class="col-md-4 mb-3">
+        <h6>Secciones</h6>
+        <ul class="list-unstyled small">
+          <li><a href="estructurales.html" class="text-decoration-none text-light">Estructura</a></li>
+          <li><a href="formularios.html" class="text-decoration-none text-light">Formulario</a></li>
+          <li><a href="listas.html" class="text-decoration-none text-light">Listas</a></li>
+          <li><a href="multimedia.html" class="text-decoration-none text-light">Multimedia</a></li>
+          <li><a href="tablas.html" class="text-decoration-none text-light">Tablas</a></li>
+          <li><a href="texto.html" class="text-decoration-none text-light">Texto</a></li>
+        </ul>
+      </div>
+
+      <!-- Información adicional -->
+      <div class="col-md-4 mb-3">
+        <h6>Información</h6>
+        <ul class="list-unstyled small">
+          <li>Proyecto académico</li>
+          <li>Desarrollado con HTML5 y Bootstrap 5</li>
+          <li>Año 2026</li>
+          <li>Autor: Luis Alejandro Duarte</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <hr class="border-light">
+
+    <!-- Derechos -->
+    <div class="text-center small">
+      © 2026 Explicación HTML | Todos los derechos reservados
+    </div>
+
+  </div>
+</footer>
+<!-- FIN FOOTER -->
 <!-- FIN Navbar -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
