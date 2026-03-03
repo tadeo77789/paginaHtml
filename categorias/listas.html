@@ -2,29 +2,25 @@
 <html lang="es">
 <head>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>modelos listas</title>
+    <title>Explicacion HTML</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-
-
->>>>>>> 66e19f23fb1346ebd63d2cf13207effadeeab218
 </head>
 <body>
-    <!-- Navbar -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg border-bottom bg-body-tertiary" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Explicacion HTML</a>
+    <a class="navbar-brand" href="index.html">Explicacion HTML</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item"><a class="nav-link " href="estructurales.html">Estructura</a></li>
+        <li class="nav-item"><a class="nav-link" href="estructurales.html">Estructura</a></li>
         <li class="nav-item"><a class="nav-link" href="formularios.html">Formulario</a></li>
         <li class="nav-item"><a class="nav-link active" href="listas.html">Listas</a></li>
         <li class="nav-item"><a class="nav-link" href="multimedia.html">Multimedia</a></li>
@@ -36,5 +32,64 @@
   </div>
 </nav>
 <!-- FIN Navbar -->
+ <!--INICIO DE TEXTO INFO-->
+  <div class="container mt-5">
+
+    <div class="card text-bg-dark mb-3 shadow p-4 ">
+        <h1 class="text-center mb-4">¿Qué es una lista en HTML?</h1>
+
+        <p>
+            En HTML, una <strong>lista</strong> es una forma de mostrar elementos organizados uno debajo del otro.
+        </p>
+            <h3>¿Como funciona una lista en HTML?</h3>
+        <p>
+            <strong>HTML</strong> solo se encarga de la estructura de la lista, es decir, de organizar los elementos
+             en un formato específico (ordenado o desordenado). La apariencia visual de la lista (como los puntos,
+              números o estilos) se controla mediante CSS.
+        </p>
+              <div class="container mt-4">
+
+              <h4>Comando HTML</h4>
+              <div class="container mt-4"></div>
+
+              <div class="codigo-terminal shadow">
+              <pre><code>
+              &lt;ul&gt;
+              &lt;li&gt;Manzana&lt;/li&gt;
+              &lt;li&gt;Pera&lt;/li&gt;
+              &lt;li&gt;Uva&lt;/li&gt;
+              &lt;/ul&gt;
+              </code></pre>
+              </div>
+              <div class="container mt-4"></div>
+              <h4>Resultado</h4>
+              <ul>
+                <li>Manzana</li>  
+                <li>Pera</li>
+                <li>Uva</li>
+              </ul>
+</div>
+                <h3>Se usa para mostrar :</h3>
+
+        <ul>
+          <li>Opciones de menú</li>
+            <li>Pasos</li>
+            <li>Características</li>
+            <li>Elementos relacionados </li>
+        </ul>
+
+        <img src="https://discoduroderoer.es/wp-content/uploads/2012/12/lista-desordenada.png" alt="HTML5">
+
+        <hr> 
+
+
+    </div>
+
+</div>
+
+<!--FIN DE TEXTO INFO-->
+
+         <!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
