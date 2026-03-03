@@ -7,6 +7,30 @@ body{
 }
 
 #carouselExampleFade img {
-    height: 350px;      
-    object-fit: cover;  
+    height: 350px;
+    object-fit: cover;
+}
+
+#carouselExampleFade img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: black;
+}
+
+.titulo1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 50px;
+}
+
+#text {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
