@@ -1,19 +1,28 @@
  body {
     margin: 0;
 }
+/* Altura adaptable del carrusel */
 #carouselExampleFade {
-    max-width: 1500px; 
-    margin-block-start: auto;
-}
-#carouselExampleFade img {
-    height: 400px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-.carousel-indicators [data-bs-target] {
-    background-color: black;
+  max-height: 500px;
+  overflow: hidden;
 }
 
+/* Todas las imágenes del carrusel */
+#carouselExampleFade .carousel-item img {
+  height: 500px;
+  object-fit: cover; /* evita deformaciones */
+}
+
+/* Ajuste para móviles */
+@media (max-width: 768px) {
+  #carouselExampleFade {
+    max-height: 250px;
+  }
+
+  #carouselExampleFade .carousel-item img {
+    height: 250px;
+  }
+}
 .titulo1 {
     color: rgb(0, 0, 0);
     text-align: center;
