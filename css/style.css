@@ -43,6 +43,11 @@
     transform: translateY(-10px); /*sirve para el movimiento de los mini contenedores*/
 }
 
+.inframe{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
 .codigo-terminal {
   background-color: #ffffff;
   color: #000000;
